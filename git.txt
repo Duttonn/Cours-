@@ -1,0 +1,79 @@
+TP4 git 
+
+Exercice 4:
+
+le message git status indique sur quelle brancheon se trouve, dis si on a fait des commits ou pas, donne les fichiers non suivis par le git dans le repertoir dans lequel on se trouve, nous propose accesoirement d'ajouter les fichiers/dossiers présents dans le repertoire courtant au git en faisant git add
+
+Exercice 5: 
+un message apparait en plus : 
+
+Modifications qui seront validées :
+  (utilisez "git rm --cached <fichier>..." pour désindexer)
+	nouveau fichier : test.txt
+
+donc tous les fichiers chargés (ici juste le mien test.txt) seront commit quand je ferais un commit 
+
+Exercice 7:
+on a le meme status que pour la question 4 mais sans mon fichier test.tx dans la liste de fichiers non suivis 
+
+Exercice 8:
+
+commit 56b2d720e5561b959a865735dd13e374ac7e959b (HEAD -> master)
+Author: Duttonn <natao.dutton@gmail.com>
+Date:   Mon Nov 20 14:15:07 2023 +0100
+
+    Test commit
+
+diff --git a/test.txt b/test.txt
+new file mode 100644
+index 0000000..d98d1fc
+--- /dev/null
++++ b/test.txt
+@@ -0,0 +1 @@
++test tes;vr;$
+
+la commande log donne l'historique des commits fait sur une machine pour un compte git 
+ça indique la date a laquelle le commit a été fait, le message, le nom du fichier et d'autres informations comme le contenu du fichier 
+
+Exercice 9: 
+
+git diff indique les lignes qu'on a retiré ou ajouté par rapport au fichier original qu'on a commit dans git 
+
+Exercice 11:
+mon fichier test apparait dans le repertoire que j'ai créé
+
+Exercice 12:
+le fichier est mis a jour 
+
+
+clé : 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
+
+
+
+
+
+Parie 2 du tp:
+
+2. les repertoires créés sont OPI23-EI3
+ensuite il y a eleves et README.md
+dans eleves il y a les groupes de a à f 
+
+3. git status retourne :
+Sur la branche main
+Votre branche est à jour avec 'origin/main'.
+
+rien à valider, la copie de travail est propre
+
+11. 
+
+To https://github.com/thilaire/OPI23-EI3.git
+ ! [rejected]        main -> main (fetch first)
+error: impossible de pousser des références vers 'https://github.com/thilaire/OPI23-EI3.git'
+astuce: Les mises à jour ont été rejetées car la branche distante contient du travail que
+astuce: vous n'avez pas en local. Ceci est généralement causé par un autre dépôt poussé
+astuce: vers la même référence. Vous pourriez intégrer d'abord les changements distants
+astuce: (par exemple 'git pull ...') avant de pousser à nouveau.
+astuce: Voir la 'Note à propos des avances rapides' dans 'git push --help' pour plus d'information.
+
+rejetté car j'ai mofifié le fichier de mon voisin 
+
