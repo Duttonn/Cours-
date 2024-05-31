@@ -1,0 +1,62 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\natao\Desktop\PROJETVHDL3\ALU
+Ealu
+Z1 w1714406147
+Z2 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z4 8alu.vhd
+Z5 Falu.vhd
+l0
+L7
+Veh9cZzz>=Mo63ha`Hm2@D1
+Z6 OV;C;6.5b;42
+31
+Z7 o-93 -O0
+Z8 tExplicit 1
+!s100 C:iU>5;JSIcfY3WlS<Dd_1
+Abehaviour
+R2
+R3
+Z9 DEx4 work 3 alu 0 22 eh9cZzz>=Mo63ha`Hm2@D1
+l18
+L14
+V7WD<CL6EI_BI<:<mL6oM@2
+!s100 _YnzeLd]jka<[Idzg017e2
+R6
+31
+Z10 Mx2 4 ieee 14 std_logic_1164
+Z11 Mx1 4 ieee 11 numeric_std
+R7
+R8
+Ealu_tb
+Z12 w1714740712
+R2
+R3
+Z13 8alu_tb.vhd
+Z14 Falu_tb.vhd
+l0
+L5
+V^XR1Qd>UMamlALzR:g]UF1
+!s100 K5SlggV9o_E]4gP2Ga^fz3
+R6
+31
+R7
+R8
+Atestbench
+R9
+R2
+R3
+Z15 DEx4 work 6 alu_tb 0 22 ^XR1Qd>UMamlALzR:g]UF1
+l22
+L8
+Z16 VzdzldIomiLAFMGcA;Ljkd2
+Z17 !s100 f9AFK:f@<5LIb?DbG[QN^2
+R6
+31
+R10
+R11
+R7
+R8

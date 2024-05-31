@@ -1,0 +1,1503 @@
+# Reading C:/altera/91/modelsim_ase/tcl/vsim/pref.tcl 
+# vsim -gui . 
+# ** Error: (vsim-19) Failed to access library '' at "".
+# Invalid argument. (errno = EINVAL)
+# Error loading design
+do simu.do
+# Cannot open macro file: simu.do
+cd C:/Users/natao/Desktop/PROJETVHDL3/FINAL_ASSEMBLY
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity alu
+# -- Compiling architecture behaviour of alu
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity banc
+# -- Compiling architecture behaviour of banc
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity registrecommande
+# -- Compiling architecture behaviour of registrecommande
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity decodeurinstruction
+# -- Compiling architecture behaviour of decodeurinstruction
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity instruction_memory
+# -- Compiling architecture rtl of instruction_memory
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mem
+# -- Compiling architecture behaviour of mem
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity extention
+# -- Compiling architecture behaviour of extention
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ugi
+# -- Compiling architecture behaviour of ugi
+# -- Loading entity extention
+# -- Loading entity instruction_memory
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity multiplexeur2vers1
+# -- Compiling architecture behaviour of multiplexeur2vers1
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity assemblage_utt_final
+# -- Compiling architecture behaviour of assemblage_utt_final
+# -- Loading entity alu
+# -- Loading entity banc
+# -- Loading entity extention
+# -- Loading entity mem
+# -- Loading entity multiplexeur2vers1
+# -- Loading entity decodeurinstruction
+# -- Loading entity registrecommande
+# -- Loading entity ugi
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity assemblage_utt_final_tb
+# -- Compiling architecture testbench of assemblage_utt_final_tb
+# -- Loading entity assemblage_utt_final
+# vsim assemblage_utt_final_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.assemblage_utt_final_tb(testbench)
+# Loading work.assemblage_utt_final(behaviour)
+# Loading work.alu(behaviour)
+# Loading work.banc(behaviour)
+# Loading work.extention(behaviour)
+# Loading work.mem(behaviour)
+# Loading work.multiplexeur2vers1(behaviour)
+# Loading work.decodeurinstruction(behaviour)
+# Loading work.registrecommande(behaviour)
+# Loading work.ugi(behaviour)
+# Loading work.instruction_memory(rtl)
+# .main_pane.objects.interior.cs.body
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: natao  Hostname: LAPTOP-QL6Q1E7O  ProcessID: 11320
+#           Attempting to use alternate WLF file "./wlft07wemj".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft07wemj
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/ugi/im
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 5  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 110 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 130 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 210 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 230 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 310 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 330 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 410 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 430 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 510 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 530 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 610 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 630 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 710 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 730 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 810 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 830 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 910 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 930 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1010 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1030 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1050 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1190 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1210 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1290 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1310 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1390 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1410 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1490 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1510 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1590 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1610 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1690 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1710 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1790 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1810 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1890 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1910 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1990 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2010 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2090 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2110 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2130 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+restart
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/ugi/im
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 5  Instance: /assemblage_utt_final_tb/utt/alu
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 110 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 130 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 210 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 230 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 310 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 330 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 410 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 430 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 510 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 530 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 610 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 630 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 710 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 730 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 810 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 830 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 910 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 930 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1010 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1030 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1050 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1190 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1210 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1290 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1310 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1390 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1410 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1490 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1510 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1590 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1610 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1690 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1710 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1790 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1810 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1890 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1910 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1990 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2010 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2090 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2110 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2130 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity alu
+# -- Compiling architecture behaviour of alu
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity banc
+# -- Compiling architecture behaviour of banc
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity registrecommande
+# -- Compiling architecture behaviour of registrecommande
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity decodeurinstruction
+# -- Compiling architecture behaviour of decodeurinstruction
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity instruction_memory
+# -- Compiling architecture rtl of instruction_memory
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mem
+# -- Compiling architecture behaviour of mem
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity extention
+# -- Compiling architecture behaviour of extention
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ugi
+# -- Compiling architecture behaviour of ugi
+# -- Loading entity extention
+# -- Loading entity instruction_memory
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity multiplexeur2vers1
+# -- Compiling architecture behaviour of multiplexeur2vers1
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity assemblage_utt_final
+# -- Compiling architecture behaviour of assemblage_utt_final
+# -- Loading entity alu
+# -- Loading entity banc
+# -- Loading entity extention
+# -- Loading entity mem
+# -- Loading entity multiplexeur2vers1
+# -- Loading entity decodeurinstruction
+# -- Loading entity registrecommande
+# -- Loading entity ugi
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity assemblage_utt_final_tb
+# -- Compiling architecture testbench of assemblage_utt_final_tb
+# -- Loading entity assemblage_utt_final
+# vsim assemblage_utt_final_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.assemblage_utt_final_tb(testbench)
+# Loading work.assemblage_utt_final(behaviour)
+# Loading work.alu(behaviour)
+# Loading work.banc(behaviour)
+# Loading work.extention(behaviour)
+# Loading work.mem(behaviour)
+# Loading work.multiplexeur2vers1(behaviour)
+# Loading work.decodeurinstruction(behaviour)
+# Loading work.registrecommande(behaviour)
+# Loading work.ugi(behaviour)
+# Loading work.instruction_memory(rtl)
+# .main_pane.objects.interior.cs.body
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: natao  Hostname: LAPTOP-QL6Q1E7O  ProcessID: 11320
+#           Attempting to use alternate WLF file "./wlftqwqana".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftqwqana
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/ugi/im
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 5  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 110 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 130 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 210 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 230 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 310 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 330 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 410 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 430 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 510 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 530 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 610 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 630 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 710 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 730 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 810 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 830 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 910 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 930 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1010 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1030 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1050 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1190 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1210 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1290 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1310 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1390 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1410 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1490 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1510 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1590 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1610 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1690 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1710 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1790 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1810 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1890 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1910 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1990 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2010 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2090 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2110 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2130 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+add wave \
+{sim:/assemblage_utt_final_tb/utt/mem/banc } 
+add wave \
+{sim:/assemblage_utt_final_tb/utt/dcode/instr_courante } 
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity alu
+# -- Compiling architecture behaviour of alu
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity banc
+# -- Compiling architecture behaviour of banc
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity registrecommande
+# -- Compiling architecture behaviour of registrecommande
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity decodeurinstruction
+# -- Compiling architecture behaviour of decodeurinstruction
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity instruction_memory
+# -- Compiling architecture rtl of instruction_memory
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mem
+# -- Compiling architecture behaviour of mem
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity extention
+# -- Compiling architecture behaviour of extention
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ugi
+# -- Compiling architecture behaviour of ugi
+# -- Loading entity extention
+# -- Loading entity instruction_memory
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity multiplexeur2vers1
+# -- Compiling architecture behaviour of multiplexeur2vers1
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity assemblage_utt_final
+# -- Compiling architecture behaviour of assemblage_utt_final
+# -- Loading entity alu
+# -- Loading entity banc
+# -- Loading entity extention
+# -- Loading entity mem
+# -- Loading entity multiplexeur2vers1
+# -- Loading entity decodeurinstruction
+# -- Loading entity registrecommande
+# -- Loading entity ugi
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity assemblage_utt_final_tb
+# -- Compiling architecture testbench of assemblage_utt_final_tb
+# -- Loading entity assemblage_utt_final
+# vsim assemblage_utt_final_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.assemblage_utt_final_tb(testbench)
+# Loading work.assemblage_utt_final(behaviour)
+# Loading work.alu(behaviour)
+# Loading work.banc(behaviour)
+# Loading work.extention(behaviour)
+# Loading work.mem(behaviour)
+# Loading work.multiplexeur2vers1(behaviour)
+# Loading work.decodeurinstruction(behaviour)
+# Loading work.registrecommande(behaviour)
+# Loading work.ugi(behaviour)
+# Loading work.instruction_memory(rtl)
+# .main_pane.objects.interior.cs.body
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: natao  Hostname: LAPTOP-QL6Q1E7O  ProcessID: 11320
+#           Attempting to use alternate WLF file "./wlftk4mkmi".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftk4mkmi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/ugi/im
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 5  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 110 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 130 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 210 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 230 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 310 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 330 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 410 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 430 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 510 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 530 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 610 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 630 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 710 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 730 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 810 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 830 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 910 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 930 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1010 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1030 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1050 ns  Iteration: 5  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1190 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1210 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1290 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1310 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1390 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1410 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1490 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1510 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1590 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1610 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1690 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1710 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1790 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1810 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1890 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1910 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1990 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2010 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2090 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2110 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2130 ns  Iteration: 5  Instance: /assemblage_utt_final_tb/utt/bancreg
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity alu
+# -- Compiling architecture behaviour of alu
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity banc
+# -- Compiling architecture behaviour of banc
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity registrecommande
+# -- Compiling architecture behaviour of registrecommande
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity decodeurinstruction
+# -- Compiling architecture behaviour of decodeurinstruction
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity instruction_memory
+# -- Compiling architecture rtl of instruction_memory
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mem
+# -- Compiling architecture behaviour of mem
+# ** Error: mem.vhd(22): Illegal target for signal assignment.
+# ** Error: mem.vhd(22): (vcom-1136) Unknown identifier "banc".
+# ** Error: mem.vhd(25): Target of signal assignment is not a signal.
+# ** Error: mem.vhd(45): VHDL Compiler exiting
+# ** Error: C:/altera/91/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./simu.do line 9
+# C:/altera/91/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -2008 mem.vhd"
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity alu
+# -- Compiling architecture behaviour of alu
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity banc
+# -- Compiling architecture behaviour of banc
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity registrecommande
+# -- Compiling architecture behaviour of registrecommande
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity decodeurinstruction
+# -- Compiling architecture behaviour of decodeurinstruction
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity instruction_memory
+# -- Compiling architecture rtl of instruction_memory
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mem
+# -- Compiling architecture behaviour of mem
+# ** Error: mem.vhd(22): Target of signal assignment is not a signal.
+# ** Error: mem.vhd(25): Target of signal assignment is not a signal.
+# ** Error: mem.vhd(45): VHDL Compiler exiting
+# ** Error: C:/altera/91/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./simu.do line 9
+# C:/altera/91/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -2008 mem.vhd"
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity alu
+# -- Compiling architecture behaviour of alu
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity banc
+# -- Compiling architecture behaviour of banc
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity registrecommande
+# -- Compiling architecture behaviour of registrecommande
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity decodeurinstruction
+# -- Compiling architecture behaviour of decodeurinstruction
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity instruction_memory
+# -- Compiling architecture rtl of instruction_memory
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mem
+# -- Compiling architecture behaviour of mem
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity extention
+# -- Compiling architecture behaviour of extention
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ugi
+# -- Compiling architecture behaviour of ugi
+# -- Loading entity extention
+# -- Loading entity instruction_memory
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity multiplexeur2vers1
+# -- Compiling architecture behaviour of multiplexeur2vers1
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity assemblage_utt_final
+# -- Compiling architecture behaviour of assemblage_utt_final
+# -- Loading entity alu
+# -- Loading entity banc
+# -- Loading entity extention
+# -- Loading entity mem
+# -- Loading entity multiplexeur2vers1
+# -- Loading entity decodeurinstruction
+# -- Loading entity registrecommande
+# -- Loading entity ugi
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity assemblage_utt_final_tb
+# -- Compiling architecture testbench of assemblage_utt_final_tb
+# -- Loading entity assemblage_utt_final
+# vsim assemblage_utt_final_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.assemblage_utt_final_tb(testbench)
+# Loading work.assemblage_utt_final(behaviour)
+# Loading work.alu(behaviour)
+# Loading work.banc(behaviour)
+# Loading work.extention(behaviour)
+# Loading work.mem(behaviour)
+# Loading work.multiplexeur2vers1(behaviour)
+# Loading work.decodeurinstruction(behaviour)
+# Loading work.registrecommande(behaviour)
+# Loading work.ugi(behaviour)
+# Loading work.instruction_memory(rtl)
+# .main_pane.objects.interior.cs.body
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: natao  Hostname: LAPTOP-QL6Q1E7O  ProcessID: 11320
+#           Attempting to use alternate WLF file "./wlftjgk4qm".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftjgk4qm
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/ugi/im
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 5  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 110 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 130 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 210 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 230 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 310 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 330 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 410 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 430 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 510 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 530 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 610 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 630 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 710 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 730 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 810 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 830 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 910 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 930 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1010 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1030 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1050 ns  Iteration: 5  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1190 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1210 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1290 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1310 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1390 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1410 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1490 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1510 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1590 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1610 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1690 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1710 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1790 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1810 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1890 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1910 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1990 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2010 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2090 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2110 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2130 ns  Iteration: 5  Instance: /assemblage_utt_final_tb/utt/bancreg
+# WARNING: No extended dataflow License exists
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity alu
+# -- Compiling architecture behaviour of alu
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity banc
+# -- Compiling architecture behaviour of banc
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity registrecommande
+# -- Compiling architecture behaviour of registrecommande
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity decodeurinstruction
+# -- Compiling architecture behaviour of decodeurinstruction
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity instruction_memory
+# -- Compiling architecture rtl of instruction_memory
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mem
+# -- Compiling architecture behaviour of mem
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity extention
+# -- Compiling architecture behaviour of extention
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ugi
+# -- Compiling architecture behaviour of ugi
+# -- Loading entity extention
+# -- Loading entity instruction_memory
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity multiplexeur2vers1
+# -- Compiling architecture behaviour of multiplexeur2vers1
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity assemblage_utt_final
+# -- Compiling architecture behaviour of assemblage_utt_final
+# -- Loading entity alu
+# -- Loading entity banc
+# -- Loading entity extention
+# -- Loading entity mem
+# -- Loading entity multiplexeur2vers1
+# -- Loading entity decodeurinstruction
+# -- Loading entity registrecommande
+# -- Loading entity ugi
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity assemblage_utt_final_tb
+# -- Compiling architecture testbench of assemblage_utt_final_tb
+# -- Loading entity assemblage_utt_final
+# ** Error: assemblage_utt_final_tb.vhd(36): No feasible entries for subprogram "rising_edge".
+# ** Error: assemblage_utt_final_tb.vhd(43): VHDL Compiler exiting
+# ** Error: C:/altera/91/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./simu.do line 16
+# C:/altera/91/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -2008 assemblage_utt_final_tb.vhd"
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity alu
+# -- Compiling architecture behaviour of alu
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity banc
+# -- Compiling architecture behaviour of banc
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity registrecommande
+# -- Compiling architecture behaviour of registrecommande
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity decodeurinstruction
+# -- Compiling architecture behaviour of decodeurinstruction
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity instruction_memory
+# -- Compiling architecture rtl of instruction_memory
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mem
+# -- Compiling architecture behaviour of mem
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity extention
+# -- Compiling architecture behaviour of extention
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ugi
+# -- Compiling architecture behaviour of ugi
+# -- Loading entity extention
+# -- Loading entity instruction_memory
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity multiplexeur2vers1
+# -- Compiling architecture behaviour of multiplexeur2vers1
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity assemblage_utt_final
+# -- Compiling architecture behaviour of assemblage_utt_final
+# -- Loading entity alu
+# -- Loading entity banc
+# -- Loading entity extention
+# -- Loading entity mem
+# -- Loading entity multiplexeur2vers1
+# -- Loading entity decodeurinstruction
+# -- Loading entity registrecommande
+# -- Loading entity ugi
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity assemblage_utt_final_tb
+# -- Compiling architecture testbench of assemblage_utt_final_tb
+# -- Loading entity assemblage_utt_final
+# vsim assemblage_utt_final_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.assemblage_utt_final_tb(testbench)
+# Loading work.assemblage_utt_final(behaviour)
+# Loading work.alu(behaviour)
+# Loading work.banc(behaviour)
+# Loading work.extention(behaviour)
+# Loading work.mem(behaviour)
+# Loading work.multiplexeur2vers1(behaviour)
+# Loading work.decodeurinstruction(behaviour)
+# Loading work.registrecommande(behaviour)
+# Loading work.ugi(behaviour)
+# Loading work.instruction_memory(rtl)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: natao  Hostname: LAPTOP-QL6Q1E7O  ProcessID: 11320
+#           Attempting to use alternate WLF file "./wlft855vif".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft855vif
+# .main_pane.objects.interior.cs.body
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/ugi/im
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 5  Instance: /assemblage_utt_final_tb/utt/alu
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity alu
+# -- Compiling architecture behaviour of alu
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity banc
+# -- Compiling architecture behaviour of banc
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity registrecommande
+# -- Compiling architecture behaviour of registrecommande
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity decodeurinstruction
+# -- Compiling architecture behaviour of decodeurinstruction
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity instruction_memory
+# -- Compiling architecture rtl of instruction_memory
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mem
+# -- Compiling architecture behaviour of mem
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity extention
+# -- Compiling architecture behaviour of extention
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ugi
+# -- Compiling architecture behaviour of ugi
+# -- Loading entity extention
+# -- Loading entity instruction_memory
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity multiplexeur2vers1
+# -- Compiling architecture behaviour of multiplexeur2vers1
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity assemblage_utt_final
+# -- Compiling architecture behaviour of assemblage_utt_final
+# -- Loading entity alu
+# -- Loading entity banc
+# -- Loading entity extention
+# -- Loading entity mem
+# -- Loading entity multiplexeur2vers1
+# -- Loading entity decodeurinstruction
+# -- Loading entity registrecommande
+# -- Loading entity ugi
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity assemblage_utt_final_tb
+# -- Compiling architecture testbench of assemblage_utt_final_tb
+# -- Loading entity assemblage_utt_final
+# ** Warning: [4] assemblage_utt_final_tb.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# vsim assemblage_utt_final_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.assemblage_utt_final_tb(testbench)
+# Loading work.assemblage_utt_final(behaviour)
+# Loading work.alu(behaviour)
+# Loading work.banc(behaviour)
+# Loading work.extention(behaviour)
+# Loading work.mem(behaviour)
+# Loading work.multiplexeur2vers1(behaviour)
+# Loading work.decodeurinstruction(behaviour)
+# Loading work.registrecommande(behaviour)
+# Loading work.ugi(behaviour)
+# Loading work.instruction_memory(rtl)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: natao  Hostname: LAPTOP-QL6Q1E7O  ProcessID: 11320
+#           Attempting to use alternate WLF file "./wlft17y2mi".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft17y2mi
+# .main_pane.objects.interior.cs.body
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/ugi/im
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 5  Instance: /assemblage_utt_final_tb/utt/alu
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity alu
+# -- Compiling architecture behaviour of alu
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity banc
+# -- Compiling architecture behaviour of banc
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity registrecommande
+# -- Compiling architecture behaviour of registrecommande
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity decodeurinstruction
+# -- Compiling architecture behaviour of decodeurinstruction
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity instruction_memory
+# -- Compiling architecture rtl of instruction_memory
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mem
+# -- Compiling architecture behaviour of mem
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity extention
+# -- Compiling architecture behaviour of extention
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ugi
+# -- Compiling architecture behaviour of ugi
+# -- Loading entity extention
+# -- Loading entity instruction_memory
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity multiplexeur2vers1
+# -- Compiling architecture behaviour of multiplexeur2vers1
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity assemblage_utt_final
+# -- Compiling architecture behaviour of assemblage_utt_final
+# -- Loading entity alu
+# -- Loading entity banc
+# -- Loading entity extention
+# -- Loading entity mem
+# -- Loading entity multiplexeur2vers1
+# -- Loading entity decodeurinstruction
+# -- Loading entity registrecommande
+# -- Loading entity ugi
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity assemblage_utt_final_tb
+# -- Compiling architecture testbench of assemblage_utt_final_tb
+# -- Loading entity assemblage_utt_final
+# ** Warning: [4] assemblage_utt_final_tb.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# vsim assemblage_utt_final_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.assemblage_utt_final_tb(testbench)
+# Loading work.assemblage_utt_final(behaviour)
+# Loading work.alu(behaviour)
+# Loading work.banc(behaviour)
+# Loading work.extention(behaviour)
+# Loading work.mem(behaviour)
+# Loading work.multiplexeur2vers1(behaviour)
+# Loading work.decodeurinstruction(behaviour)
+# Loading work.registrecommande(behaviour)
+# Loading work.ugi(behaviour)
+# Loading work.instruction_memory(rtl)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: natao  Hostname: LAPTOP-QL6Q1E7O  ProcessID: 11320
+#           Attempting to use alternate WLF file "./wlft98t5n9".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft98t5n9
+# .main_pane.objects.interior.cs.body
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/ugi/im
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 5  Instance: /assemblage_utt_final_tb/utt/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 110 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 130 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 210 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 230 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 310 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 330 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 410 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 430 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 510 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 530 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 610 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 630 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 710 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 730 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 810 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 830 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 910 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 930 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1010 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1030 ns  Iteration: 4  Instance: /assemblage_utt_final_tb/utt/bancreg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1050 ns  Iteration: 5  Instance: /assemblage_utt_final_tb/utt/bancreg

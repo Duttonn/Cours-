@@ -1,0 +1,130 @@
+Flow report for PROJETVHDL3
+Wed May 29 15:53:55 2024
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Wed May 29 15:53:50 2024       ;
+; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                      ; PROJETVHDL3                                 ;
+; Top-level Entity Name              ; TOP_processor                               ;
+; Family                             ; MAX 10                                      ;
+; Device                             ; 10M50DCF484C7G                              ;
+; Timing Models                      ; Final                                       ;
+; Total logic elements               ; 3,151 / 49,760 ( 6 % )                      ;
+;     Total combinational functions  ; 2,055 / 49,760 ( 4 % )                      ;
+;     Dedicated logic registers      ; 2,327 / 49,760 ( 5 % )                      ;
+; Total registers                    ; 2327                                        ;
+; Total pins                         ; 41 / 360 ( 11 % )                           ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0 / 1,677,312 ( 0 % )                       ;
+; Embedded Multiplier 9-bit elements ; 0 / 288 ( 0 % )                             ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                               ;
+; UFM blocks                         ; 0 / 1 ( 0 % )                               ;
+; ADC blocks                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 05/29/2024 15:48:58 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; PROJETVHDL3         ;
++-------------------+---------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                 ;
++-------------------------------------+----------------------------------------+---------------+----------------------+------------+
+; Assignment Name                     ; Value                                  ; Default Value ; Entity Name          ; Section Id ;
++-------------------------------------+----------------------------------------+---------------+----------------------+------------+
+; COMPILER_SIGNATURE_ID               ; 52934021818249.171699053805612         ; --            ; --                   ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --                   ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --                   ; --         ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; DE10_LITE_Golden_Top ; Top        ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; TOP_processor        ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; DE10_LITE_Golden_Top ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; TOP_processor        ; Top        ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; DE10_LITE_Golden_Top ; Top        ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; TOP_processor        ; Top        ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --                   ; --         ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --                   ; --         ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --                   ; --         ;
+; TOP_LEVEL_ENTITY                    ; TOP_processor                          ; PROJETVHDL3   ; --                   ; --         ;
++-------------------------------------+----------------------------------------+---------------+----------------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:17     ; 1.0                     ; 4872 MB             ; 00:00:11                           ;
+; Fitter               ; 00:04:28     ; 1.1                     ; 6670 MB             ; 00:03:00                           ;
+; Assembler            ; 00:00:04     ; 1.0                     ; 4695 MB             ; 00:00:02                           ;
+; Timing Analyzer      ; 00:00:05     ; 4.2                     ; 4993 MB             ; 00:00:08                           ;
+; Total                ; 00:04:54     ; --                      ; --                  ; 00:03:21                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; LAPTOP-QL6Q1E7O  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; LAPTOP-QL6Q1E7O  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; LAPTOP-QL6Q1E7O  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; LAPTOP-QL6Q1E7O  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off PROJETVHDL3 -c PROJETVHDL3
+quartus_fit --read_settings_files=off --write_settings_files=off PROJETVHDL3 -c PROJETVHDL3
+quartus_asm --read_settings_files=off --write_settings_files=off PROJETVHDL3 -c PROJETVHDL3
+quartus_sta PROJETVHDL3 -c PROJETVHDL3
+
+
+

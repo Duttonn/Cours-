@@ -1,0 +1,682 @@
+# Reading C:/altera/91/modelsim_ase/tcl/vsim/pref.tcl 
+# vsim -gui . 
+# ** Error: (vsim-19) Failed to access library '' at "".
+# Invalid argument. (errno = EINVAL)
+# Error loading design
+do simu.do
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip
+# -- Compiling architecture behaviour of ramchip
+# ** Error: ramChip.vhd(14): near "of": expecting ',' or ')'
+# ** Error: ramChip.vhd(15): (vcom-1136) Unknown identifier "ramtype".
+# ** Error: ramChip.vhd(18): near "if": syntax error
+# ** Error: C:/altera/91/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./simu.do line 3
+# C:/altera/91/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 ramChip.vhd"
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip
+# -- Compiling architecture behaviour of ramchip
+# ** Error: ramChip.vhd(18): near "if": syntax error
+# ** Error: C:/altera/91/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./simu.do line 3
+# C:/altera/91/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 ramChip.vhd"
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip
+# -- Compiling architecture behaviour of ramchip
+# ** Error: ramChip.vhd(18): near "if": syntax error
+# ** Error: C:/altera/91/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./simu.do line 3
+# C:/altera/91/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 ramChip.vhd"
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip
+# -- Compiling architecture behaviour of ramchip
+# ** Error: ramChip.vhd(19): No feasible entries for infix operator "=".
+# ** Error: ramChip.vhd(19): No feasible entries for infix operator "=".
+# ** Error: ramChip.vhd(19): Bad expression in left operand of infix expression "and".
+# ** Error: ramChip.vhd(19): Bad expression in right operand of infix expression "and".
+# ** Error: ramChip.vhd(19): Type error resolving infix expression "and" as type std.standard.boolean.
+# ** Error: ramChip.vhd(21): No feasible entries for infix operator "=".
+# ** Error: ramChip.vhd(21): No feasible entries for infix operator "=".
+# ** Error: ramChip.vhd(21): Bad expression in left operand of infix expression "and".
+# ** Error: ramChip.vhd(21): Bad expression in right operand of infix expression "and".
+# ** Error: ramChip.vhd(21): Type error resolving infix expression "and" as type std.standard.boolean.
+# ** Error: ramChip.vhd(27): VHDL Compiler exiting
+# ** Error: C:/altera/91/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./simu.do line 3
+# C:/altera/91/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 ramChip.vhd"
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip
+# -- Compiling architecture behaviour of ramchip
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip_tb
+# -- Compiling architecture bench of ramchip_tb
+# -- Loading entity ramchip
+# vsim ramchip_tb(Bench) 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ramchip_tb(bench)
+# Loading work.ramchip(behaviour)
+# .main_pane.objects.interior.cs.body
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip
+# -- Compiling architecture behaviour of ramchip
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip_tb
+# -- Compiling architecture bench of ramchip_tb
+# -- Loading entity ramchip
+# vsim ramchip_tb(Bench) 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ramchip_tb(bench)
+# Loading work.ramchip(behaviour)
+# .main_pane.objects.interior.cs.body
+# WARNING: No extended dataflow License exists
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip
+# -- Compiling architecture behaviour of ramchip
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip_tb
+# -- Compiling architecture bench of ramchip_tb
+# -- Loading entity ramchip
+# vsim ramchip_tb(Bench) 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ramchip_tb(bench)
+# Loading work.ramchip(behaviour)
+# .main_pane.objects.interior.cs.body
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip
+# -- Compiling architecture behaviour of ramchip
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip_tb
+# -- Compiling architecture bench of ramchip_tb
+# -- Loading entity ramchip
+# vsim ramchip_tb(Bench) 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ramchip_tb(bench)
+# Loading work.ramchip(behaviour)
+# .main_pane.objects.interior.cs.body
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip
+# -- Compiling architecture behaviour of ramchip
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip_tb
+# -- Compiling architecture bench of ramchip_tb
+# -- Loading entity ramchip
+# vsim ramchip_tb(Bench) 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ramchip_tb(bench)
+# Loading work.ramchip(behaviour)
+# .main_pane.objects.interior.cs.body
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip
+# -- Compiling architecture behaviour of ramchip
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip_tb
+# -- Compiling architecture bench of ramchip_tb
+# -- Loading entity ramchip
+# vsim ramchip_tb(Bench) 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ramchip_tb(bench)
+# Loading work.ramchip(behaviour)
+# .main_pane.objects.interior.cs.body
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip
+# -- Compiling architecture behaviour of ramchip
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip_tb
+# -- Compiling architecture bench of ramchip_tb
+# -- Loading entity ramchip
+# vsim ramchip_tb(Bench) 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ramchip_tb(bench)
+# Loading work.ramchip(behaviour)
+# .main_pane.objects.interior.cs.body
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip
+# -- Compiling architecture behaviour of ramchip
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip_tb
+# -- Compiling architecture bench of ramchip_tb
+# -- Loading entity ramchip
+# vsim ramchip_tb(Bench) 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ramchip_tb(bench)
+# Loading work.ramchip(behaviour)
+# .main_pane.objects.interior.cs.body
+# ** Failure: Erreur de lecture des données
+#    Time: 350 ns  Iteration: 0  Process: /ramchip_tb/test_process File: ramchip_tb.vhd
+# Break in Process test_process at ramchip_tb.vhd line 56
+# Simulation Breakpoint: Break in Process test_process at ramchip_tb.vhd line 56
+# MACRO ./simu.do PAUSED at line 11
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip
+# -- Compiling architecture behaviour of ramchip
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip_tb
+# -- Compiling architecture bench of ramchip_tb
+# -- Loading entity ramchip
+# ** Error: ramchip_tb.vhd(19): (vcom-1136) Unknown identifier "address".
+# ** Error: ramchip_tb.vhd(20): (vcom-1136) Unknown identifier "data".
+# ** Error: ramchip_tb.vhd(21): (vcom-1136) Unknown identifier "ncs".
+# ** Error: ramchip_tb.vhd(22): (vcom-1136) Unknown identifier "nwe".
+# ** Error: ramchip_tb.vhd(23): (vcom-1136) Unknown identifier "noe".
+# ** Error: ramchip_tb.vhd(19): (vcom-1136) Unknown identifier "saddress".
+# ** Error: ramchip_tb.vhd(20): (vcom-1136) Unknown identifier "sdata".
+# ** Error: ramchip_tb.vhd(21): (vcom-1136) Unknown identifier "sncs".
+# ** Error: ramchip_tb.vhd(22): (vcom-1136) Unknown identifier "snwe".
+# ** Error: ramchip_tb.vhd(23): (vcom-1136) Unknown identifier "snoe".
+# ** Error: ramchip_tb.vhd(68): VHDL Compiler exiting
+# ** Error: C:/altera/91/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./simu.do line 4
+# C:/altera/91/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 ramchip_tb.vhd"
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip
+# -- Compiling architecture behaviour of ramchip
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip_tb
+# -- Compiling architecture bench of ramchip_tb
+# -- Loading entity ramchip
+# vsim ramchip_tb(Bench) 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ramchip_tb(bench)
+# Loading work.ramchip(behaviour)
+# .main_pane.objects.interior.cs.body
+# ** Failure: Erreur de lecture des données
+#    Time: 350 ns  Iteration: 0  Process: /ramchip_tb/test_process File: ramchip_tb.vhd
+# Break in Process test_process at ramchip_tb.vhd line 55
+# Simulation Breakpoint: Break in Process test_process at ramchip_tb.vhd line 55
+# MACRO ./simu.do PAUSED at line 11
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip
+# -- Compiling architecture behaviour of ramchip
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip_tb
+# -- Compiling architecture bench of ramchip_tb
+# -- Loading entity ramchip
+# vsim ramchip_tb(Bench) 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ramchip_tb(bench)
+# Loading work.ramchip(behaviour)
+# .main_pane.objects.interior.cs.body
+# ** Failure: Erreur de lecture des données
+#    Time: 350 ns  Iteration: 0  Process: /ramchip_tb/test_process File: ramchip_tb.vhd
+# Break in Process test_process at ramchip_tb.vhd line 55
+# Simulation Breakpoint: Break in Process test_process at ramchip_tb.vhd line 55
+# MACRO ./simu.do PAUSED at line 11
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip
+# -- Compiling architecture behaviour of ramchip
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip_tb
+# -- Compiling architecture bench of ramchip_tb
+# -- Loading entity ramchip
+# ** Error: ramchip_tb.vhd(56): near ";": syntax error
+# ** Error: ramchip_tb.vhd(65): near ";": syntax error
+# ** Error: ramchip_tb.vhd(102): VHDL Compiler exiting
+# ** Error: C:/altera/91/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./simu.do line 4
+# C:/altera/91/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 ramchip_tb.vhd"
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip
+# -- Compiling architecture behaviour of ramchip
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip_tb
+# -- Compiling architecture bench of ramchip_tb
+# -- Loading entity ramchip
+# ** Error: ramchip_tb.vhd(56): near ";": syntax error
+# ** Error: ramchip_tb.vhd(65): near ";": syntax error
+# ** Error: ramchip_tb.vhd(104): VHDL Compiler exiting
+# ** Error: C:/altera/91/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./simu.do line 4
+# C:/altera/91/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 ramchip_tb.vhd"
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip
+# -- Compiling architecture behaviour of ramchip
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip_tb
+# -- Compiling architecture bench of ramchip_tb
+# -- Loading entity ramchip
+# ** Error: ramchip_tb.vhd(56): near ";": syntax error
+# ** Error: ramchip_tb.vhd(65): near ";": syntax error
+# ** Error: ramchip_tb.vhd(104): VHDL Compiler exiting
+# ** Error: C:/altera/91/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./simu.do line 4
+# C:/altera/91/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 ramchip_tb.vhd"
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip
+# -- Compiling architecture behaviour of ramchip
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip_tb
+# -- Compiling architecture bench of ramchip_tb
+# -- Loading entity ramchip
+# ** Error: ramchip_tb.vhd(56): near ";": syntax error
+# ** Error: ramchip_tb.vhd(65): near ";": syntax error
+# ** Error: ramchip_tb.vhd(104): VHDL Compiler exiting
+# ** Error: C:/altera/91/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./simu.do line 4
+# C:/altera/91/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 ramchip_tb.vhd"
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip
+# -- Compiling architecture behaviour of ramchip
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip_tb
+# -- Compiling architecture bench of ramchip_tb
+# -- Loading entity ramchip
+# ** Error: ramchip_tb.vhd(56): near ";": syntax error
+# ** Error: ramchip_tb.vhd(65): near ";": syntax error
+# ** Error: ramchip_tb.vhd(104): VHDL Compiler exiting
+# ** Error: C:/altera/91/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./simu.do line 4
+# C:/altera/91/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 ramchip_tb.vhd"
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip
+# -- Compiling architecture behaviour of ramchip
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip_tb
+# -- Compiling architecture bench of ramchip_tb
+# -- Loading entity ramchip
+# vsim ramchip_tb(Bench) 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ramchip_tb(bench)
+# Loading work.ramchip(behaviour)
+# .main_pane.objects.interior.cs.body
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip
+# -- Compiling architecture behaviour of ramchip
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip_tb
+# -- Compiling architecture bench of ramchip_tb
+# -- Loading entity ramchip
+# vsim ramchip_tb(Bench) 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ramchip_tb(bench)
+# Loading work.ramchip(behaviour)
+# .main_pane.objects.interior.cs.body
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip
+# -- Compiling architecture behaviour of ramchip
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip_tb
+# -- Compiling architecture bench of ramchip_tb
+# -- Loading entity ramchip
+# vsim ramchip_tb(Bench) 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ramchip_tb(bench)
+# Loading work.ramchip(behaviour)
+# .main_pane.objects.interior.cs.body
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip
+# -- Compiling architecture behaviour of ramchip
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip_tb
+# -- Compiling architecture bench of ramchip_tb
+# -- Loading entity ramchip
+# vsim ramchip_tb(Bench) 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ramchip_tb(bench)
+# Loading work.ramchip(behaviour)
+# .main_pane.objects.interior.cs.body
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip
+# -- Compiling architecture behaviour of ramchip
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip_tb
+# -- Compiling architecture bench of ramchip_tb
+# -- Loading entity ramchip
+# vsim ramchip_tb(Bench) 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ramchip_tb(bench)
+# Loading work.ramchip(behaviour)
+# .main_pane.objects.interior.cs.body
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip
+# -- Compiling architecture behaviour of ramchip
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip_tb
+# -- Compiling architecture bench of ramchip_tb
+# -- Loading entity ramchip
+# vsim ramchip_tb(Bench) 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ramchip_tb(bench)
+# Loading work.ramchip(behaviour)
+# .main_pane.objects.interior.cs.body
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Compiling architecture behaviour of ramchip
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading entity ramchip
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip_tb
+# -- Compiling architecture bench of ramchip_tb
+# -- Loading entity ramchip
+# vsim ramchip_tb(Bench) 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ramchip_tb(bench)
+# Loading work.ramchip(behaviour)
+# .main_pane.objects.interior.cs.body
+# ** Error: Erreur de lecture des données
+#    Time: 170 ns  Iteration: 0  Instance: /ramchip_tb
+# Updating msgviewer database...
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip
+# -- Compiling architecture behaviour of ramchip
+# ** Error: ramChip.vhd(30): Illegal target for signal assignment.
+# ** Error: ramChip.vhd(30): (vcom-1136) Unknown identifier "temp_data".
+# ** Error: ramChip.vhd(31): (vcom-1136) Unknown identifier "temp_data".
+# ** Error: ramChip.vhd(53): VHDL Compiler exiting
+# ** Error: C:/altera/91/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./simu.do line 3
+# C:/altera/91/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 ramChip.vhd"
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip
+# -- Compiling architecture behaviour of ramchip
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip_tb
+# -- Compiling architecture bench of ramchip_tb
+# -- Loading entity ramchip
+# vsim ramchip_tb(Bench) 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ramchip_tb(bench)
+# Loading work.ramchip(behaviour)
+# .main_pane.objects.interior.cs.body
+# ** Error: Erreur de lecture des données
+#    Time: 170 ns  Iteration: 0  Instance: /ramchip_tb
+# ** Error: Erreur de lecture des données
+#    Time: 210 ns  Iteration: 0  Instance: /ramchip_tb
+# Updating msgviewer database...
+do simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip
+# -- Compiling architecture behaviour of ramchip
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity ramchip_tb
+# -- Compiling architecture bench of ramchip_tb
+# -- Loading entity ramchip
+# vsim ramchip_tb(Bench) 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ramchip_tb(bench)
+# Loading work.ramchip(behaviour)
+# .main_pane.objects.interior.cs.body
+# ** Error: Erreur de lecture des données
+#    Time: 170 ns  Iteration: 0  Instance: /ramchip_tb
+# ** Error: Erreur de lecture des données
+#    Time: 210 ns  Iteration: 0  Instance: /ramchip_tb
+# Updating msgviewer database...

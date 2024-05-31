@@ -1,0 +1,91 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\natao\Desktop\PROJETVHDL3\MUX
+Emultiplexer_tb
+Z1 w1715074442
+Z2 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z4 8multiplexeur2vers1_tb.vhd
+Z5 Fmultiplexeur2vers1_tb.vhd
+l0
+L5
+V:gMSZ:H0kZI:5zH[okQ=b2
+Z6 OV;C;6.5b;42
+31
+Z7 o-93 -O0
+Z8 tExplicit 1
+!s100 GN2LPc7Sj:PamNfV;Fh]I0
+Atestbench
+Z9 DEx4 work 18 multiplexeur2vers1 0 22 kYi9<S@hWlICAe]TWWIcY0
+R2
+R3
+DEx4 work 14 multiplexer_tb 0 22 :gMSZ:H0kZI:5zH[okQ=b2
+l14
+L8
+V[NBTfJHV[`nKmzdURo<K11
+R6
+31
+Z10 Mx2 4 ieee 14 std_logic_1164
+Z11 Mx1 4 ieee 11 numeric_std
+R7
+R8
+!s100 `]On^oaFcU26M2Ezo0MIg3
+Emultiplexeur2vers1
+Z12 w1715072327
+R2
+R3
+Z13 8multiplexeur2vers1.vhd
+Z14 Fmultiplexeur2vers1.vhd
+l0
+L5
+VkYi9<S@hWlICAe]TWWIcY0
+R6
+31
+R7
+R8
+!s100 :=Q4G3<_n2a<odEQdQgc;0
+Abehaviour
+R2
+R3
+R9
+l17
+L16
+Vdn7Rkon0>Z:2[VQ[M3PNI3
+!s100 ^fl;:_PJezdj35e^`bOYD3
+R6
+31
+R10
+R11
+R7
+R8
+Emultiplexeur2vers1_tb
+Z15 w1715074609
+R2
+R3
+R4
+R5
+l0
+L5
+V6An9P@VkXBzS9B7aacYEN2
+!s100 l[JB5H]L:CL`IUe]Cn]0V3
+R6
+31
+R7
+R8
+Atestbench
+R9
+R2
+R3
+Z16 DEx4 work 21 multiplexeur2vers1_tb 0 22 6An9P@VkXBzS9B7aacYEN2
+l14
+L8
+Z17 VgfD?lHB9RXo8OUW:B3>c=1
+Z18 !s100 lYkco[`<E]fHMGDUFBB873
+R6
+31
+R10
+R11
+R7
+R8

@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCK_50'
+Slack : -17.538
+TNS   : -29120.729
+
+Type  : Slow 1200mV 85C Model Setup 'assemblage_utt_final:Processor|ugi:UGI|PC[0]'
+Slack : -4.746
+TNS   : -31.891
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCK_50'
+Slack : 0.596
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'assemblage_utt_final:Processor|ugi:UGI|PC[0]'
+Slack : 1.295
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -3267.781
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'assemblage_utt_final:Processor|ugi:UGI|PC[0]'
+Slack : 0.423
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -16.187
+TNS   : -26710.852
+
+Type  : Slow 1200mV 0C Model Setup 'assemblage_utt_final:Processor|ugi:UGI|PC[0]'
+Slack : -4.395
+TNS   : -29.205
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.508
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'assemblage_utt_final:Processor|ugi:UGI|PC[0]'
+Slack : 1.187
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -3267.781
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'assemblage_utt_final:Processor|ugi:UGI|PC[0]'
+Slack : 0.421
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -7.168
+TNS   : -11640.643
+
+Type  : Fast 1200mV 0C Model Setup 'assemblage_utt_final:Processor|ugi:UGI|PC[0]'
+Slack : -1.606
+TNS   : -10.475
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCK_50'
+Slack : -0.144
+TNS   : -0.159
+
+Type  : Fast 1200mV 0C Model Hold 'assemblage_utt_final:Processor|ugi:UGI|PC[0]'
+Slack : 0.458
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -2410.107
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'assemblage_utt_final:Processor|ugi:UGI|PC[0]'
+Slack : 0.416
+TNS   : 0.000
+
+------------------------------------------------------------

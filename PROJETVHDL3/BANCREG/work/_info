@@ -1,0 +1,177 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\natao\Desktop\PROJETVHDL3\BANCREG
+Ealu
+Z1 w1714406147
+Z2 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z4 8alu.vhd
+Z5 Falu.vhd
+l0
+L7
+VcZl9>b^L@lCPzZedEE`S20
+Z6 OV;C;6.5b;42
+33
+Z7 o-2008 -O0
+Z8 tExplicit 1
+!s100 C:iU>5;JSIcfY3WlS<Dd_1
+Abehaviour
+R2
+R3
+Z9 DEx4 work 3 alu 0 22 cZl9>b^L@lCPzZedEE`S20
+l18
+L14
+V6eAj^R=3ni6QV?N>K0X^41
+R6
+33
+Z10 Mx2 4 ieee 14 std_logic_1164
+Z11 Mx1 4 ieee 11 numeric_std
+R7
+R8
+!s100 _YnzeLd]jka<[Idzg017e2
+Ebanc
+Z12 w1714747536
+R2
+R3
+Z13 8banc.vhd
+Z14 Fbanc.vhd
+l0
+L5
+V]jMHcj>:KTL^P7>]N^cb50
+R6
+33
+R7
+R8
+!s100 H;Z=4H>=QYGP]]dmiFk=?0
+Abehaviour
+R2
+R3
+Z15 DEx4 work 4 banc 0 22 ]jMHcj>:KTL^P7>]N^cb50
+l33
+L14
+V620m4HCWKho53a3oJlB9]3
+R6
+33
+R10
+R11
+R7
+R8
+!s100 9D47dF>215f1ZnTJ53TD21
+Ebanc_tb
+Z16 w1714742978
+R2
+R3
+Z17 8unite_traitement_tb.vhd
+Z18 Funite_traitement_tb.vhd
+l0
+L5
+V7VkXcW[H1<C@zjkm8Lhil0
+R6
+33
+R7
+R8
+!s100 c]9^X]z?^C>_@SK4mHAY93
+Atestbench
+Z19 DEx4 work 16 unite_traitement 0 22 1RCRQ1QAdVP_43PjJ0hCS0
+R2
+R3
+DEx4 work 7 banc_tb 0 22 7VkXcW[H1<C@zjkm8Lhil0
+l44
+L8
+VoMZ?7NGSkWQZ>^agFz?SJ2
+R6
+33
+R10
+R11
+R7
+R8
+!s100 :JA8X@`G89E;LQJQKgSRO3
+Eramchip
+Z20 w1714655571
+R2
+R3
+Z21 8ramchip.vhd
+Z22 Framchip.vhd
+l0
+L7
+VEebLS=DGgzm34jU@4PVWS0
+R6
+31
+Z23 o-93 -O0
+R8
+!s100 BCTjJjVXT1=YHh9Ozh:cX2
+Abehaviour
+R2
+R3
+DEx4 work 7 ramchip 0 22 EebLS=DGgzm34jU@4PVWS0
+l30
+L14
+VjG8333MlV[;deH;Q2n<CZ2
+R6
+31
+R10
+R11
+R23
+R8
+!s100 MDz0S@a=0DJhXCX]LZGOm2
+Eunite_traitement
+Z24 w1714748662
+R2
+R3
+Z25 8unite_traitement.vhd
+Z26 Funite_traitement.vhd
+l0
+L7
+V1RCRQ1QAdVP_43PjJ0hCS0
+R6
+33
+R7
+R8
+!s100 DWng0higdma[Hf@fBmLT81
+Abehaviour
+R15
+R9
+R2
+R3
+R19
+l22
+L16
+VozkQmV0SYaelR=cVXNYzG1
+!s100 dM?hO8H2DdcLV@M28z>ml1
+R6
+33
+R10
+R11
+R7
+R8
+Eunite_traitement_tb
+Z27 w1714749106
+R2
+R3
+R17
+R18
+l0
+L5
+V]TPQHZl?<[MclK5L8fhz<3
+!s100 dcJjlc7Rnagc5kJ@HjGA]2
+R6
+33
+R7
+R8
+Atestbench
+R19
+R2
+R3
+Z28 DEx4 work 19 unite_traitement_tb 0 22 ]TPQHZl?<[MclK5L8fhz<3
+l31
+L8
+V?5in1Xh3hMdFdOmgG4FMY1
+!s100 <d?Sm1hS^`C;ILWCS60TM1
+R6
+33
+R10
+R11
+R7
+R8

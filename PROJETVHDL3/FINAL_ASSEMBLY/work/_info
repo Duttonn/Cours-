@@ -1,0 +1,324 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\natao\Desktop\PROJETVHDL3\FINAL_ASSEMBLY
+Ealu
+Z1 w1714406147
+Z2 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z4 8alu.vhd
+Z5 Falu.vhd
+l0
+L7
+VcZl9>b^L@lCPzZedEE`S20
+Z6 OV;C;6.5b;42
+33
+Z7 o-2008 -O0
+Z8 tExplicit 1
+!s100 C:iU>5;JSIcfY3WlS<Dd_1
+Abehaviour
+R2
+R3
+Z9 DEx4 work 3 alu 0 22 cZl9>b^L@lCPzZedEE`S20
+l18
+L14
+V6eAj^R=3ni6QV?N>K0X^41
+R6
+33
+Z10 Mx2 4 ieee 14 std_logic_1164
+Z11 Mx1 4 ieee 11 numeric_std
+R7
+R8
+!s100 _YnzeLd]jka<[Idzg017e2
+Eassemblage_utt_final
+Z12 w1716978933
+R2
+R3
+Z13 8assemblage_utt_final.vhd
+Z14 Fassemblage_utt_final.vhd
+l0
+L7
+VRF7jo^7zDgXW3JB@aO`aM2
+R6
+33
+R7
+R8
+!s100 2z?XZ`;]KEKYiFFEYBhRU2
+Abehaviour
+Z15 DEx4 work 3 ugi 0 22 2m97jHGPihIN5j3VW5M1_3
+Z16 DEx4 work 16 registrecommande 0 22 ?V>^4?P3JRo7k>cmcJSO<3
+Z17 DEx4 work 19 decodeurinstruction 0 22 n10MbK_lz`XHYRZNoSh@g2
+Z18 DEx4 work 18 multiplexeur2vers1 0 22 c_zX`YGZKYAQ=d>zb9WT51
+Z19 DEx4 work 3 mem 0 22 anYo<BDEc0;NA=948A;>Q1
+Z20 DEx4 work 9 extention 0 22 c4Q[F6M@BLzTU3d2G5?[13
+Z21 DEx4 work 4 banc 0 22 ]jMHcj>:KTL^P7>]N^cb50
+R9
+R2
+R3
+Z22 DEx4 work 20 assemblage_utt_final 0 22 RF7jo^7zDgXW3JB@aO`aM2
+l38
+L14
+V96KXEbamFdL:@`J8Sn1732
+!s100 mI25gHSd>jn>^cGG68:1>1
+R6
+33
+R10
+R11
+R7
+R8
+Eassemblage_utt_final_tb
+Z23 w1716985154
+R2
+R3
+Z24 8assemblage_utt_final_tb.vhd
+Z25 Fassemblage_utt_final_tb.vhd
+l0
+L7
+VXS0S=dQFIR?TC547jmjfk0
+!s100 :aTSPkZdf<`3HHCHL10CM3
+R6
+33
+R7
+R8
+Atestbench
+R22
+R2
+R3
+Z26 DEx4 work 23 assemblage_utt_final_tb 0 22 XS0S=dQFIR?TC547jmjfk0
+l18
+L10
+VFK0]cNQfinUN7TE1[gNE:0
+!s100 fYY?M6`lLXNaDoYjEYUDB2
+R6
+33
+R10
+R11
+R7
+R8
+Ebanc
+Z27 w1715071928
+R2
+R3
+Z28 8banc.vhd
+Z29 Fbanc.vhd
+l0
+L5
+V]jMHcj>:KTL^P7>]N^cb50
+R6
+33
+R7
+R8
+!s100 H;Z=4H>=QYGP]]dmiFk=?0
+Abehaviour
+R2
+R3
+R21
+l32
+L14
+V=Vfhh0XPca4]7aF:4M`S21
+R6
+33
+R10
+R11
+R7
+R8
+!s100 IlU`YzoH5Pch6hhlzOL7z0
+Edecodeurinstruction
+Z30 w1716984549
+R2
+R3
+Z31 8decodeurinstruction.vhd
+Z32 Fdecodeurinstruction.vhd
+l0
+L6
+Vn10MbK_lz`XHYRZNoSh@g2
+R6
+33
+R7
+R8
+!s100 S8B2EI[Oz>_F0f>ch6bXe1
+Abehaviour
+R2
+R3
+R17
+l33
+L27
+VA@T_h>@jU:_cFh672]>Z;0
+R6
+33
+R10
+R11
+R7
+R8
+!s100 <ZBf[nhD:dF[QzHR^K5og3
+Eextention
+Z33 w1715074050
+R2
+R3
+Z34 8Extention.vhd
+Z35 FExtention.vhd
+l0
+L5
+Vc4Q[F6M@BLzTU3d2G5?[13
+R6
+33
+R7
+R8
+!s100 WCXToGh2_mJz2MYZ<C<OY2
+Abehaviour
+R2
+R3
+R20
+l17
+L15
+VnF`6Z:KbScnW;MY^7VnAV2
+R6
+33
+R10
+R11
+R7
+R8
+!s100 ^H[4V>X50KmK0SKfWU2Ef0
+Einstruction_memory
+Z36 w1716888941
+R2
+R3
+Z37 8instruction_memory.vhd
+Z38 Finstruction_memory.vhd
+l0
+L4
+Vm>hMZ<aB<@@L8@D?Nb4K82
+R6
+33
+R7
+R8
+!s100 0EFZJ328gd7k^ESnS89:B0
+Artl
+R2
+R3
+Z39 DEx4 work 18 instruction_memory 0 22 m>hMZ<aB<@@L8@D?Nb4K82
+l30
+L10
+V?18k4=79mB7C5heHSMVhH1
+R6
+33
+R10
+R11
+R7
+R8
+!s100 jg^ZP;cSdEO80:OhLSc7F0
+Emem
+Z40 w1716984803
+R2
+R3
+Z41 8mem.vhd
+Z42 Fmem.vhd
+l0
+L5
+VanYo<BDEc0;NA=948A;>Q1
+R6
+33
+R7
+R8
+!s100 Gz?DiEoBb6UEKek?^XAO82
+Abehaviour
+R2
+R3
+R19
+l32
+L14
+V5AjjTZ;a08W^h3oML13Vn1
+R6
+33
+R10
+R11
+R7
+R8
+!s100 _aOeg=e;4Ja6I_=4LB:iG0
+Emultiplexeur2vers1
+Z43 w1715072327
+R2
+R3
+Z44 8multiplexeur2vers1.vhd
+Z45 Fmultiplexeur2vers1.vhd
+l0
+L5
+Vc_zX`YGZKYAQ=d>zb9WT51
+R6
+33
+R7
+R8
+!s100 :=Q4G3<_n2a<odEQdQgc;0
+Abehaviour
+R2
+R3
+R18
+l17
+L16
+V84zj9iW]>]AG_J[Y^XGAo0
+R6
+33
+R10
+R11
+R7
+R8
+!s100 ^fl;:_PJezdj35e^`bOYD3
+Eregistrecommande
+Z46 w1716977671
+R2
+R3
+Z47 8registrecommande.vhd
+Z48 Fregistrecommande.vhd
+l0
+L5
+V?V>^4?P3JRo7k>cmcJSO<3
+R6
+33
+R7
+R8
+!s100 URFGYPX^QW4aE5>k1ZJaN0
+Abehaviour
+R2
+R3
+R16
+l17
+L13
+V:knz3^HX_Zn4>H762fVga2
+R6
+33
+R10
+R11
+R7
+R8
+!s100 nA9P@<5QjZYVf5IGVnP3e1
+Eugi
+Z49 w1716897727
+R2
+R3
+Z50 8unite_gestion_instruction.vhd
+Z51 Funite_gestion_instruction.vhd
+l0
+L5
+V2m97jHGPihIN5j3VW5M1_3
+R6
+33
+R7
+R8
+!s100 m34Gn[e?JGMD52j9@^P[60
+Abehaviour
+R39
+R20
+R2
+R3
+R15
+l17
+L13
+VfB4aNM:9WfK8Ek8`?Lmk:2
+R6
+33
+R10
+R11
+R7
+R8
+!s100 ]85eNhXCFkQLD7NYPI4Qn3

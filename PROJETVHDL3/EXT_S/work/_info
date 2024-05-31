@@ -1,0 +1,62 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\natao\Desktop\PROJETVHDL3\EXT_S
+Eextention
+Z1 w1715074003
+Z2 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z4 8Extention.vhd
+Z5 FExtention.vhd
+l0
+L5
+V:8F2lcNhdgac;5I=z:@902
+Z6 OV;C;6.5b;42
+31
+Z7 o-93 -O0
+Z8 tExplicit 1
+!s100 WCXToGh2_mJz2MYZ<C<OY2
+Abehaviour
+R2
+R3
+Z9 DEx4 work 9 extention 0 22 :8F2lcNhdgac;5I=z:@902
+l17
+L15
+VIbfG8TKLDS2Ac2dPKMXl`3
+R6
+31
+Z10 Mx2 4 ieee 14 std_logic_1164
+Z11 Mx1 4 ieee 11 numeric_std
+R7
+R8
+!s100 A@VEWbKg>4TnLeSNT56[T1
+Eextention_tb
+Z12 w1715073926
+R2
+R3
+Z13 8Extention_tb.vhd
+Z14 FExtention_tb.vhd
+l0
+L5
+V;Ao92A_6QP`B2jmUhaoYV3
+!s100 [?IVYfi3HSo<SEz8a0AZT3
+R6
+31
+R7
+R8
+Atestbench
+R9
+R2
+R3
+Z15 DEx4 work 12 extention_tb 0 22 ;Ao92A_6QP`B2jmUhaoYV3
+l13
+L8
+Z16 Vb^QB29k1_TYASkUI8[kJg0
+Z17 !s100 V`e]Z<CPOmEZP>l0KBhCJ1
+R6
+31
+R10
+R11
+R7
+R8
