@@ -1,0 +1,113 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCK_50'
+Slack : -18.899
+TNS   : -39582.617
+
+Type  : Slow 1200mV 85C Model Setup 'assemblage_utt_final:Processor|ugi:UGI|PC[0]'
+Slack : -6.453
+TNS   : -41.345
+
+Type  : Slow 1200mV 85C Model Setup 'assemblage_utt_final:Processor|decodeurinstruction:DCODE|IRQ_END'
+Slack : -3.552
+TNS   : -17.724
+
+Type  : Slow 1200mV 85C Model Hold 'assemblage_utt_final:Processor|ugi:UGI|PC[0]'
+Slack : -0.414
+TNS   : -0.414
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCK_50'
+Slack : 0.250
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'assemblage_utt_final:Processor|decodeurinstruction:DCODE|IRQ_END'
+Slack : 1.136
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -3719.547
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'assemblage_utt_final:Processor|ugi:UGI|PC[0]'
+Slack : 0.384
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'assemblage_utt_final:Processor|decodeurinstruction:DCODE|IRQ_END'
+Slack : 0.462
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -17.619
+TNS   : -36803.748
+
+Type  : Slow 1200mV 0C Model Setup 'assemblage_utt_final:Processor|ugi:UGI|PC[0]'
+Slack : -6.179
+TNS   : -39.706
+
+Type  : Slow 1200mV 0C Model Setup 'assemblage_utt_final:Processor|decodeurinstruction:DCODE|IRQ_END'
+Slack : -3.148
+TNS   : -15.304
+
+Type  : Slow 1200mV 0C Model Hold 'assemblage_utt_final:Processor|ugi:UGI|PC[0]'
+Slack : -0.358
+TNS   : -0.358
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.158
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'assemblage_utt_final:Processor|decodeurinstruction:DCODE|IRQ_END'
+Slack : 0.979
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -3719.547
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'assemblage_utt_final:Processor|decodeurinstruction:DCODE|IRQ_END'
+Slack : 0.418
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'assemblage_utt_final:Processor|ugi:UGI|PC[0]'
+Slack : 0.444
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -7.570
+TNS   : -15255.251
+
+Type  : Fast 1200mV 0C Model Setup 'assemblage_utt_final:Processor|ugi:UGI|PC[0]'
+Slack : -2.411
+TNS   : -13.842
+
+Type  : Fast 1200mV 0C Model Setup 'assemblage_utt_final:Processor|decodeurinstruction:DCODE|IRQ_END'
+Slack : -1.377
+TNS   : -6.421
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCK_50'
+Slack : -0.249
+TNS   : -0.651
+
+Type  : Fast 1200mV 0C Model Hold 'assemblage_utt_final:Processor|ugi:UGI|PC[0]'
+Slack : -0.211
+TNS   : -0.211
+
+Type  : Fast 1200mV 0C Model Hold 'assemblage_utt_final:Processor|decodeurinstruction:DCODE|IRQ_END'
+Slack : 0.427
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -2737.694
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'assemblage_utt_final:Processor|ugi:UGI|PC[0]'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'assemblage_utt_final:Processor|decodeurinstruction:DCODE|IRQ_END'
+Slack : 0.327
+TNS   : 0.000
+
+------------------------------------------------------------

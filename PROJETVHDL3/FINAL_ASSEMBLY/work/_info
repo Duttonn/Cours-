@@ -88,8 +88,8 @@ R3
 Z26 DEx4 work 23 assemblage_utt_final_tb 0 22 XS0S=dQFIR?TC547jmjfk0
 l18
 L10
-VFK0]cNQfinUN7TE1[gNE:0
-!s100 fYY?M6`lLXNaDoYjEYUDB2
+Z27 VFK0]cNQfinUN7TE1[gNE:0
+Z28 !s100 fYY?M6`lLXNaDoYjEYUDB2
 R6
 33
 R10
@@ -97,11 +97,11 @@ R11
 R7
 R8
 Ebanc
-Z27 w1715071928
+Z29 w1715071928
 R2
 R3
-Z28 8banc.vhd
-Z29 Fbanc.vhd
+Z30 8banc.vhd
+Z31 Fbanc.vhd
 l0
 L5
 V]jMHcj>:KTL^P7>]N^cb50
@@ -125,11 +125,11 @@ R7
 R8
 !s100 IlU`YzoH5Pch6hhlzOL7z0
 Edecodeurinstruction
-Z30 w1716984549
+Z32 w1716989117
 R2
 R3
-Z31 8decodeurinstruction.vhd
-Z32 Fdecodeurinstruction.vhd
+Z33 8decodeurinstruction.vhd
+Z34 Fdecodeurinstruction.vhd
 l0
 L6
 Vn10MbK_lz`XHYRZNoSh@g2
@@ -144,20 +144,20 @@ R3
 R17
 l33
 L27
-VA@T_h>@jU:_cFh672]>Z;0
+V5QmA;G;T[KG6K`>H[U2:N3
 R6
 33
 R10
 R11
 R7
 R8
-!s100 <ZBf[nhD:dF[QzHR^K5og3
+!s100 zS^ao3M<H@YQ^Bl8i6kmi0
 Eextention
-Z33 w1715074050
+Z35 w1715074050
 R2
 R3
-Z34 8Extention.vhd
-Z35 FExtention.vhd
+Z36 8Extention.vhd
+Z37 FExtention.vhd
 l0
 L5
 Vc4Q[F6M@BLzTU3d2G5?[13
@@ -181,11 +181,11 @@ R7
 R8
 !s100 ^H[4V>X50KmK0SKfWU2Ef0
 Einstruction_memory
-Z36 w1716888941
+Z38 w1716888941
 R2
 R3
-Z37 8instruction_memory.vhd
-Z38 Finstruction_memory.vhd
+Z39 8instruction_memory.vhd
+Z40 Finstruction_memory.vhd
 l0
 L4
 Vm>hMZ<aB<@@L8@D?Nb4K82
@@ -197,7 +197,7 @@ R8
 Artl
 R2
 R3
-Z39 DEx4 work 18 instruction_memory 0 22 m>hMZ<aB<@@L8@D?Nb4K82
+Z41 DEx4 work 18 instruction_memory 0 22 m>hMZ<aB<@@L8@D?Nb4K82
 l30
 L10
 V?18k4=79mB7C5heHSMVhH1
@@ -209,11 +209,11 @@ R7
 R8
 !s100 jg^ZP;cSdEO80:OhLSc7F0
 Emem
-Z40 w1716984803
+Z42 w1716990508
 R2
 R3
-Z41 8mem.vhd
-Z42 Fmem.vhd
+Z43 8mem.vhd
+Z44 Fmem.vhd
 l0
 L5
 VanYo<BDEc0;NA=948A;>Q1
@@ -226,22 +226,22 @@ Abehaviour
 R2
 R3
 R19
-l32
+l33
 L14
-V5AjjTZ;a08W^h3oML13Vn1
+V?]1zR<jR:5V6<HjF<dMJV3
 R6
 33
 R10
 R11
 R7
 R8
-!s100 _aOeg=e;4Ja6I_=4LB:iG0
+!s100 ^RWSJ[6ZB08ZZI]n9>=Oi0
 Emultiplexeur2vers1
-Z43 w1715072327
+Z45 w1715072327
 R2
 R3
-Z44 8multiplexeur2vers1.vhd
-Z45 Fmultiplexeur2vers1.vhd
+Z46 8multiplexeur2vers1.vhd
+Z47 Fmultiplexeur2vers1.vhd
 l0
 L5
 Vc_zX`YGZKYAQ=d>zb9WT51
@@ -265,11 +265,11 @@ R7
 R8
 !s100 ^fl;:_PJezdj35e^`bOYD3
 Eregistrecommande
-Z46 w1716977671
+Z48 w1716977671
 R2
 R3
-Z47 8registrecommande.vhd
-Z48 Fregistrecommande.vhd
+Z49 8registrecommande.vhd
+Z50 Fregistrecommande.vhd
 l0
 L5
 V?V>^4?P3JRo7k>cmcJSO<3
@@ -293,11 +293,11 @@ R7
 R8
 !s100 nA9P@<5QjZYVf5IGVnP3e1
 Eugi
-Z49 w1716897727
+Z51 w1716897727
 R2
 R3
-Z50 8unite_gestion_instruction.vhd
-Z51 Funite_gestion_instruction.vhd
+Z52 8unite_gestion_instruction.vhd
+Z53 Funite_gestion_instruction.vhd
 l0
 L5
 V2m97jHGPihIN5j3VW5M1_3
@@ -307,7 +307,7 @@ R7
 R8
 !s100 m34Gn[e?JGMD52j9@^P[60
 Abehaviour
-R39
+R41
 R20
 R2
 R3
