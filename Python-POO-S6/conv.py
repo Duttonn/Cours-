@@ -28,11 +28,11 @@ class Converter:
         self.taux_label = tk.Label(master, text="TAUX: 1 € =")
         self.taux_label.grid(row=1, column=0, padx=5, pady=5, sticky="e")
 
-        vcmd = (master.register(self.validate_taux), '%P')
-        self.taux_spinbox = Spinbox(master, from_=0.1, to=10.0, increment=0.1, textvariable=self.taux, width=8, validate='all', validatecommand=vcmd)
+        # vcmd = (master.register(self.validate_taux), '%P')
+        self.taux_spinbox = Spinbox(master, from_=0.1, to=10.0, increment=0.1, textvariable=self.taux, width=8, command =self.update_conversion)
         self.taux_spinbox.grid(row=1, column=1, padx=5, pady=5)
-        self.taux_spinbox.bind("<KeyRelease>", self.update_conversion)
-        self.taux_spinbox.bind("<ButtonPress-1>", self.update_conversion)
+        # self.taux_spinbox.bind("<KeyRelease>", self.update_conversion)
+        # self.taux_spinbox.bind("<ButtonPress-1>", self.update_conversion)
 
 
         self.taux_dollars_label = tk.Label(master, text="$")
@@ -78,7 +78,7 @@ class Converter:
     def to_euros_event(self, event):
         self.to_euros(self.dollars_entry.get())
 
-    def update_conversion(self, event):
+    def update_conversion(self):
         try:
             self.update_taux()  # Ensure the rate is updated
             if self.current_direction == "euros_to_dollars":
